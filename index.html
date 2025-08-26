@@ -5,12 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Service</title>
+    <!--daisyUI-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!--tailwind css-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--fontawesome cnd-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
+        <nav class="p-4">
+            <div class=" max-w-7xl mx-auto flex justify-between items-center">
+                <div class="flex justify-center items-center">
+                    <img src="assets/logo.png" alt="" class="w-10">
+                    <h2 class="ml-2 font-bold text-[#006747]">Emergency<br>Service</h2>
+                </div>
+                <div class="flex gap-3 justify-center items-center">
+                    <div class="flex gap-2 bg-lime-100 px-2 rounded-3xl justify-center items-center">
+                    <p class="font-bold">0</p>
+                    <img src="assets/heart.png" alt="" class="w-8">
+                    </div>
+                    <div class="flex gap-2 bg-lime-100 px-2 rounded-3xl justify-center items-center">
+                        <p class="font-bold">100</p>
+                        <img src="assets/coin.png" alt="" class="w-8">
+                    </div>
+
+                   <p class="bg-[#00A63E] text-white p-2 rounded-3xl">2 Copy</p>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="bg-[#006747] mt-3 flex flex-col justify-center items-center text-center py-5">
+            <img src="assets/logo.png" alt="" class="justify-center items-center">
+            <div class="text-white">
+            <h2>Emergency Service Directory</h2>
+            <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+            </div>
+        </div>
 
     </header>
-    <main>
+    <main class="bg-green-50">
+        <section class="">
+            <div class="border-2 inline-block p-5 bg-white rounded-lg shadow-2xl shadow-black max-w-md w-full">
+                <div class="">
+                    <div class="flex justify-between items-center">
+                    <img src="assets/emergency.png" alt="" class="mb-3">
+                   <button><i class="fa-regular fa-heart"></i></button>
+         </div class="mb-3">
+                    <h2 class="text-2xl font-bold mb-2">National Emergency Number</h2>
+                    <p class="text-gray-500 mb-3">National Emergency</p>
+                    <p class="text-2xl font-bold mb-1">999</p>
+                    <p class="inline-block bg-[lightgray] p-2 rounded-2xl mb-4">All</p>
+                </div>
+                <div class="mb-2">
+                    <button class="btn border-gray-400 px-14 rounded-lg text-gray-500"><i class="fa-regular fa-file"></i>Copy</button>
+                    <button class="btn bg-[green] px-15 rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
+                </div>
+            </div>
+
+
+        </section>
 
     </main>
     
